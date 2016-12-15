@@ -27,4 +27,6 @@ git clone https://github.com/cocaine/cocaine-flow
 git clone https://github.com/cocaine/cocaine-fs
 popd
 
+sudo cat repos.list >> /etc/apt/sources.list
+sudo apt-get update
 
