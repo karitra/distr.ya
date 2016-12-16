@@ -5,8 +5,9 @@
 #
 sudo apt-get update
 sudo apt-get -y install gcc g++ cmake emacs valgrind gdb gdbserver wireshark google-perftools aptitude pkg-config python python3 libboost-dev gnome-menus desktop-file-utils bamfdaemon mime-support git liberror-perl git-man curl wget perl locate setuptools doxygen htop python-yaml  unity-tweak-tool 
-sudo apt-get -y install tmux mc
-
+sudo apt-get -y install tmux mc 
+sudo apt-get -y python-dev
+sudo apt-get -y python-pip
 exit 13
 
 ATOMPKG=~/Downloads/atom-amd64.install.deb
